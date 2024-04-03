@@ -18,8 +18,6 @@ And after restarting > run Copilot.reg file
 Done!
 
 # How to UNinstall it?
-Check if you have everything needed.
-
 Press "Code" button > download zip
 
 Unpack zip file > open Copilot_Win10 folder > Uninstall folder
