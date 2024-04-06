@@ -1,0 +1,1 @@
+HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\Shell\Copilot\BingChat [1 5 11 14 17 21]
