@@ -11,7 +11,7 @@ Microsoft Edge (Last version) + Windows 10 - 22h2 (~19045.4170)
 # How to install it?
 Check if you have everything needed.
 
-Press "Release" button > download zip
+Press "[Release](https://github.com/Nx0Ri/Copilot_win10/releases)" button > download zip
 
 Unpack zip file > open Copilot_Win10 folder > Install folder
 
