@@ -4,7 +4,7 @@ timeout 1 > NUL /NOBREAK
 echo[
 echo Удаление функции...
 echo -------------------
-cd ViVe
+cd %~dp0\ViVe
 vivetool /disable /id:46686174,47530616,44755019
 echo[
 echo[
