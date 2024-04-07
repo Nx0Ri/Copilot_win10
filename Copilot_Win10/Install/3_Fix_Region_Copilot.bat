@@ -8,7 +8,13 @@ echo[
 echo[
 echo Updating registry policies for Microsoft Edge...
 echo ------------------------------------------------
-gpupdate /force /target:computer
+gpupdate /force
+echo Restarting Microsoft Edge to apply changes...
+echo ---------------------------------------------
+taskkill /F /IM msedge.exe
+start msedge -restore-last-session
+echo[
+echo[
 echo --------------------------------------------------------------------------------
 echo Done! Changed Microsoft Edge DNS settings for Copilot. 
 echo You can use Copilot now.   

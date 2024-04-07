@@ -1,5 +1,5 @@
 @echo off
-cd ViVe
+cd %~dp0\ViVe
 vivetool /enable /id:46686174,47530616,44755019
 echo[
 echo ----------------------------------------------

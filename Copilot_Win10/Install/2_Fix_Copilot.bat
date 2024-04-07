@@ -3,7 +3,7 @@ timeout 1 > NUL /NOBREAK
 echo[
 echo Editing registry...
 echo -------------------
-cd ViVe
+cd %~dp0\ViVe
 regini pre_per.txt
 timeout 1 > NUL /NOBREAK
 reg add HKCU\SOFTWARE\Microsoft\Windows\Shell\Copilot\BingChat /v IsUserEligible /t REG_DWORD /d 1 /f

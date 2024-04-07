@@ -3,7 +3,7 @@ timeout 1 > NUL /NOBREAK
 echo[
 echo Removing feature...
 echo -------------------
-cd ViVe
+cd %~dp0\ViVe
 vivetool /disable /id:46686174,47530616,44755019
 echo[
 echo[
@@ -18,7 +18,11 @@ echo[
 echo[
 echo Updating registry policies for Microsoft Edge...
 echo ------------------------------------------------
-gpupdate /force /target:computer
+gpupdate /force
+echo Restarting Microsoft Edge to apply changes...
+echo ---------------------------------------------
+taskkill /F /IM msedge.exe
+start msedge -restore-last-session
 echo[
 echo[
 echo Rebooting explorer for deleting copilot icon...
