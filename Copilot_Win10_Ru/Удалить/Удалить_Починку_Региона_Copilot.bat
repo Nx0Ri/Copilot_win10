@@ -9,7 +9,13 @@ echo[
 echo[
 echo Обновление политики Microsoft Edge из реестра...
 echo ------------------------------------------------
-gpupdate /force /target:computer
+gpupdate /force
+echo Перезапуск Microsoft Edge для применения изменений...
+echo -----------------------------------------------------
+taskkill /F /IM msedge.exe
+start msedge -restore-last-session
+echo[
+echo[
 echo ----------------------------------------------------------------------------------------------
 echo Готово! Изменены Microsoft Edge DNS настройки для Copilot. 
 echo Вы теперь не можете использовать Copilot. (Если имеется региональная блокировка.)   
