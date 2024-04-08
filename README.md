@@ -26,3 +26,9 @@ Open Uninstall folder
 Run One_click_Uninstall_Copilot.bat > Restart
 
 Done!
+
+# Credits
+
+Thanks to [Vive](https://github.com/thebookisclosed/ViVe) because their tool is main thing in my script
+
+Some people from stackoverflow (and microsoft support, they helped me to fix some issues within working on script)
