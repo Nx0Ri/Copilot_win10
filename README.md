@@ -6,7 +6,7 @@ Copilot for Windows 10, because only windows 11 has it by default but not window
 Read about Copilot you can here: [Microsoft Copilot](https://blogs.microsoft.com/blog/2023/09/21/announcing-microsoft-copilot-your-everyday-ai-companion/)
 
 # NEEDED:
-Microsoft Edge (Last version) + Windows 10 - 22h2 (~19045.3757)
+Microsoft Edge (Last version) + Windows 10 - 22h2 (~19045.3757) (auto-updater added)
 
 # How to install it?
 Check if you have everything needed.
